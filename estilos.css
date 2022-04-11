@@ -1,4 +1,20 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-size: 20px;
+    font-family: Algerian;
+}
+header{
+    
+}
+body{
+    background-color: #D8D6FF;
+}
+footer{
+    padding: 30px;
+    background-color: #969CFF;
+    
+}
+p{
+    font-size: 12px;
 }
