@@ -1,20 +1,73 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-size: 20px;
     font-family: Algerian;
 }
-header{
-    
+img{
+    max-width: 80%;
+    max-height: 90%;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
 }
 body{
     background-color: #D8D6FF;
+    
+}
+.menu  {
+    padding: 5px;
+    margin: 10px;
+    margin-bottom: 5px; 
+    background-color: #969CFF;
+}
+.menu a:hover {
+    background-color: #ecee74;
+}
+.menu a {
+    text-decoration: none;
+    color: #e45555;
+    margin-right: 20px;
 }
 footer{
     padding: 30px;
     background-color: #969CFF;
     
 }
+
+h2,h3,h4{
+    padding: 5px 15px;
+}
+
+h2{
+    color: #e45555;
+}
+
 p{
-    font-size: 12px;
+    padding: 5px 20px;
+    font-size: 18px;
+}
+
+.vid_insta{
+    padding: 30px;
+    
+
+}
+
+.container{ 
+    padding: 5px 40px;
+    max-height: 85%;
+    max-width: 70%;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:10px;
+}
+.container div{
+    background: #e45555;
+    padding: 10px;
+    margin: 10px;
+}
+.container div:hover{
+    border:10px solid #D8D6FF;
 }
